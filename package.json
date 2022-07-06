@@ -1,0 +1,37 @@
+{
+  "name": "bip44-constants",
+  "version": "54.0.0",
+  "description": "Bitcoin BIP44 constants.",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint",
+    "update": "node update.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoinjs/bip44-constants.git"
+  },
+  "keywords": [
+    "bip44",
+    "bitcoin",
+    "litecoin",
+    "dogecoin",
+    "blackcoin",
+    "trezor"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitcoinjs/bip44-constants/issues"
+  },
+  "homepage": "https://github.com/bitcoinjs/bip44-constants#readme",
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "node-fetch": "^2.6.1",
+    "standard": "14.3.3"
+  }
+}
